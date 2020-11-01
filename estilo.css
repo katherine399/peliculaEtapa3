@@ -1,0 +1,188 @@
+@media (min-width:768px)
+{ 	
+body{
+background: url(fondo.jpg) no-repeat center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#principal{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000;
+	margin: auto;
+
+}
+
+header{
+	width: 900px;
+	height: 100px;
+	border: 0px solid #000;
+}
+
+#logo{
+	width: 200px;
+	height: 100px;
+	border: 0px solid #000;
+	float: left; font-family: sans-serif;
+}
+
+.titulo{
+	margin-top: 25px;
+	font-size: 30px;
+}
+
+/*PARA EL MENU*/
+.menu {
+    float: left;
+    margin-top: 10px;
+    width: 750px;
+}
+.menu li {
+    border-right: 1px solid blue;
+    float: left;
+    list-style: none outside none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+}
+
+.menu li:last-child {
+    border-right:none;
+}
+.menu li a {
+    color:#03FCC0;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: #B4FC22;
+    text-decoration: none;
+}
+.menu .current a {
+    color: yellow;
+    text-decoration: none;
+}
+.menu .current a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+.uno{
+	width: 280px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	color:white;
+}
+
+.parrafo{
+	color: white;
+	text-align: justify;
+}
+.dos{
+	margin-left: 12px;
+	margin-right:12px;
+	color: green;
+}
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px; color: 
+}
+
+#izq{
+	width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; color: #4682b4;
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+
+#der{
+	width: 290px;
+	height: 300px;
+	border: 1px solid #ccc;
+	float: right;
+	color: blue
+}
+
+footer{
+	background-image:url("foooter.jpg");
+    background-position: 50% 25vh;
+    text-align: center;
+     
+}
+
+   
+  
+
+/*/redes Sociales/*/
+
+*{box-sizing:border-box;}
+
+		.container{
+			width:70%;
+			max-width:900px;
+			padding:20px 54px;
+			margin:auto;
+		}
+
+		.social{
+			/*las imágenes usadas tienen width de 48px*/
+			width:600px;
+			position:static;
+			
+		}
+
+		/* Extra centrado vertical*/
+
+		.social{
+			/*border:1px solid #000;*/
+			top:50%;
+			right:120px;
+			/*para poner height 192 deberíamos haber indicado en el reset de estilos font-size:0;*/
+			margin-top:-100px;
+		}
+		
+
+/*PARTE DE LA ENCUESTA*/
+.pregresp {
+border: 1px solid black;
+padding: 10px;
+margin: 10px;
+font-family: Arial, Verdana, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pregunta {
+color: orange;
+}
+
+.respuestas {
+color:black;
+}
+.background {
+    /*width: 200px;*/
+    height: 90px;
+    background-color: lime;
+    padding: 10px;
+    margin: 0px 0px 10px 0px;
+}
+.trans {
+    opacity: 0.5;
+}
+}
+}
+
